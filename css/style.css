@@ -1,0 +1,395 @@
+@font-face {
+	font-family: 'Inconsolata';
+	src: url('/fonts/Inconsolata-Regular.woff2') format('woff2'),
+		url('/fonts/Inconsolata-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-Medium.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-LightItalic.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-Italic.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-BoldItalic.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-MediumItalic.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('/fonts/Ubuntu/Ubuntu.woff2') format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/*---------------------------------------------------*/
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('/fonts/Playfair_Display/PlayfairDisplay-Italic.woff2')
+			format('woff2'),
+		url('/fonts/Ubuntu/Ubuntu-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.woff2')
+			format('woff2'),
+		url('/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.woff')
+			format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('/fonts/Playfair_Display/PlayfairDisplay-BlackItalic.woff2')
+			format('woff2'),
+		url('/fonts/Playfair_Display/PlayfairDisplay-BlackItalic.woff')
+			format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('/fonts/Playfair_Display/PlayfairDisplay-Regular.woff2')
+			format('woff2'),
+		url('/fonts/Playfair_Display/PlayfairDisplay-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('/fonts/Playfair_Display/PlayfairDisplay-Bold.woff2') format('woff2'),
+		url('/fonts/Playfair_Display/PlayfairDisplay-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('/fonts/Playfair_Display/PlayfairDisplay-Black.woff2')
+			format('woff2'),
+		url('/fonts/Playfair_Display/PlayfairDisplay-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*---------------------------------------------------*/
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+}
+
+.logo {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 29.8px;
+	color: black;
+	letter-spacing: 6px;
+	position: relative;
+	display: inline-block;
+}
+/*--------------------------------------------------------*/
+.header {
+	max-width: 1094px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.header__inner {
+	display: flex;
+	align-items: center;
+}
+.maini {
+	margin-top: 67px;
+}
+.header__logo {
+	margin-right: 367px;
+	display: flex;
+	margin-top: 65px;
+	text-shadow: 1px 0 0 #808080, /* справа */ -1px 0 0 #808080,
+		/* слева */ 0 1px 0 #808080, /* снизу */ 0 -1px 0 #808080; /* сверху */
+}
+.crossed {
+	position: relative;
+	display: inline-block;
+}
+
+.crossed::before {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	width: 120%;
+	height: 1.8px; /* Толщина линии */
+	background: black; /* Цвет */
+	transform: rotate(-58deg); /* Угол наклона (подберите значение) */
+	transform-origin: right;
+}
+.header__nav {
+	justify-content: center;
+	align-items: center;
+	margin-top: 65px;
+}
+.header-nav-list {
+	font-family: Playfair Display;
+	font-weight: normal;
+	font-style: normal;
+	display: flex;
+	font-display: swap;
+	font-size: 14px;
+}
+.header_nav_item1 {
+	margin-right: 121px;
+}
+.header_nav_item2 {
+	margin-right: 103px;
+}
+.header_nav_item3 {
+	margin-right: 95px;
+}
+.header-nav-link {
+}
+/*-------------------------------------------------------*/
+.main {
+}
+.container {
+	height: auto;
+	max-width: 931px;
+	padding: 0 15px;
+	margin: 0 auto;
+	overflow: visible;
+}
+.main__inner {
+	display: flex;
+	align-items: center;
+	margin-top: 97px;
+	flex-direction: column;
+	height: auto;
+	overflow: visible;
+}
+h4 {
+	font-family: Ubuntu;
+	font-size: 14px;
+	color: #b4ad9e;
+	margin-bottom: 18px;
+}
+h2 {
+	font-family: Playfair Display;
+	font-size: 30px;
+	margin-bottom: 27px;
+}
+p {
+	font-family: Playfair Display;
+	font-size: 14px;
+	line-height: 24px;
+}
+.img {
+	margin-bottom: 25px;
+}
+.img2 {
+	margin-bottom: 23px;
+}
+.leave_a_comment {
+	margin-top: 45px;
+}
+.sec1 {
+	margin-bottom: 20;
+}
+.sec2 {
+	margin-top: 114px;
+	display: flex;
+	margin-bottom: 0px;
+}
+.sec3 {
+	margin-top: 106px;
+	display: flex;
+	margin-bottom: 170px;
+}
+.sec_left {
+	margin-left: 1px;
+}
+.sec_right {
+	margin-left: 60px;
+}
+
+.sec4 {
+	position: relative;
+	padding: 40px 0;
+	margin: 0 auto;
+	width: 100%;
+}
+.sec4::before {
+	margin: 0 auto;
+	content: '';
+	position: absolute;
+	top: -51px; /* Выходит за верхнюю границу */
+	bottom: -67px; /* Выходит за нижнюю границу */
+	left: -9999px;
+	right: -9999px;
+	background-color: #f0f0f0;
+	z-index: -1; /* Отправляем фон назад */
+}
+.sec4_content {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+.email {
+	letter-spacing: 1px;
+	margin-top: -27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+send_email {
+	display: flex;
+}
+.enter {
+	font-family: Playfair Display;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 14px;
+	margin-top: 40px;
+	margin-left: 255px;
+	margin-right: 0px;
+	height: 39px;
+	width: 360px;
+}
+.send {
+	margin-left: 2px;
+}
+.deliver {
+	border-bottom: 2px solid black;
+	width: 400px;
+	margin-left: 253px;
+}
+.sec5 {
+	margin-top: 139px;
+	display: flex;
+	margin-bottom: 170px;
+}
+.bottom {
+	margin-top: -9px;
+	margin-bottom: 137px;
+	font-family: Playfair Display;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 15px 33px;
+}
+/*-----------------------------------------------*/
+footer {
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 40px 0;
+	justify-content: center;
+}
+.footer__inner {
+}
+
+.footer__nav {
+	max-width: 931px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-left: 291px;
+	margin: 0 auto;
+}
+.footer-nav-list {
+	font-family: Playfair Display;
+	display: flex;
+	flex-wrap: nowrap;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	font-size: 14px;
+	margin-left: 15px;
+	white-space: nowrap;
+}
+.footer-nav-item1 {
+	margin-right: 15px;
+}
+.footer-nav-item3 {
+}
+.footer-nav-item3 {
+	margin-left: 642px;
+	margin-right: 23px;
+}
+.footer-nav-item4 {
+	margin-top: 3px;
+}
+.footer-nav-item5 {
+	margin-left: 16px;
+	margin-right: 19px;
+	margin-top: 3px;
+}
+.footer-nav-item6 {
+	margin-top: 3px;
+}
