@@ -1,0 +1,41 @@
+.body__inner {
+	max-width: 800px;
+	padding: 0 15px;
+	margin: 0 auto;
+	align-items: center;
+}
+.input1 {
+	display: flex;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.input2 {
+	margin-left: 7px;
+	display: flex;
+}
+.input {
+	margin-top: 13px;
+	height: 15px;
+}
+p {
+	margin-right: 10px;
+}
+.diliver {
+	height: 1px;
+	background-color: #000;
+	margin: 10px 0;
+	width: 300px;
+}
+button {
+	margin-left: 70px;
+	padding: 8px 15px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 175px;
+}
+#rectangle {
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-left: 100px;
+	border: 1px solid #000;
+}

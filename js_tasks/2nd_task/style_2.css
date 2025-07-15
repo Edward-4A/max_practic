@@ -1,0 +1,23 @@
+body {
+	padding: 30px 30px;
+	display: flex;
+	flex-direction: column;
+}
+input {
+	margin-bottom: 10px;
+	width: 600px;
+}
+.inputs {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.map {
+	margin-bottom: 10px;
+}
+.comment {
+	height: 200px;
+}
+button {
+	width: 600px;
+}

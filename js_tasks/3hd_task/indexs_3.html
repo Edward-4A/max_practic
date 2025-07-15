@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="/js_tasks/3hd_task/style_3.css" />
+		<title>task_3</title>
+	</head>
+	<body>
+		<div class="price">
+			<p>Цена от:</p>
+			<input type="number" id="ot" placeholder="0" />
+			<p>до:</p>
+			<input type="number" id="do" placeholder="10000" />
+			<button id="btn">Обновить</button>
+		</div>
+		<table id="productsTable">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Название</th>
+					<th>Количество</th>
+					<th>Цена за единицу</th>
+					<th>Сумма</th>
+				</tr>
+			</thead>
+			<tbody id="tableBody"></tbody>
+		</table>
+
+		<script src="3.js"></script>
+	</body>
+</html>
