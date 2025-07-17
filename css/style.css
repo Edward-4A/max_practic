@@ -393,3 +393,51 @@ footer {
 .footer-nav-item6 {
 	margin-top: 3px;
 }
+
+@media (max-width: 992px) {
+	.header__inner,
+	.sec2,
+	.sec3,
+	.sec5 {
+		flex-direction: column;
+		align-items: center;
+	}
+	.maini {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 67px;
+	}
+	.header_nav_item1,
+	.header_nav_item2,
+	.header_nav_item3 {
+		margin-right: 20px;
+	}
+
+	.header__logo {
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.sec_right {
+		margin-left: 0;
+		margin-top: 40px;
+	}
+
+	.footer-nav-list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footer-nav-item3 {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+
+	.enter,
+	.deliver {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
