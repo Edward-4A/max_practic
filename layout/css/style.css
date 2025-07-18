@@ -187,9 +187,9 @@
 	top: 5px;
 	left: -10px;
 	width: 120%;
-	height: 1.8px; /* Толщина линии */
-	background: black; /* Цвет */
-	transform: rotate(-58deg); /* Угол наклона (подберите значение) */
+	height: 1.8px;
+	background: black;
+	transform: rotate(-58deg);
 	transform-origin: right;
 }
 .header__nav {
@@ -214,11 +214,7 @@
 .header_nav_item3 {
 	margin-right: 95px;
 }
-.header-nav-link {
-}
 /*-------------------------------------------------------*/
-.main {
-}
 .container {
 	height: auto;
 	max-width: 931px;
@@ -289,12 +285,12 @@ p {
 	margin: 0 auto;
 	content: '';
 	position: absolute;
-	top: -51px; /* Выходит за верхнюю границу */
-	bottom: -67px; /* Выходит за нижнюю границу */
+	top: -51px;
+	bottom: -67px;
 	left: -9999px;
 	right: -9999px;
 	background-color: #f0f0f0;
-	z-index: -1; /* Отправляем фон назад */
+	z-index: -1;
 }
 .sec4_content {
 	flex-direction: column;
@@ -344,14 +340,12 @@ send_email {
 	border: 1px solid black;
 	padding: 15px 33px;
 }
-/*-----------------------------------------------*/
+/*-------------------------------------------------------------*/
 footer {
 	width: 100%;
 	background-color: #f0f0f0;
 	padding: 40px 0;
 	justify-content: center;
-}
-.footer__inner {
 }
 
 .footer__nav {
@@ -375,8 +369,6 @@ footer {
 }
 .footer-nav-item1 {
 	margin-right: 15px;
-}
-.footer-nav-item3 {
 }
 .footer-nav-item3 {
 	margin-left: 642px;
