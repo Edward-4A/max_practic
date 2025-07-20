@@ -5,7 +5,7 @@ COPY js_tasks/package.json .
 RUN npm install
 
 COPY index.html .
-COPY fonts/ .
+COPY fonts/ fonts
 COPY js_tasks/ js_tasks
 COPY layout/ layout/
 
